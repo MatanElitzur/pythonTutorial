@@ -18,11 +18,12 @@ This is not good I would like to work on a virtual enviornment
 1. Profile module execute: python3 -m profile sum_loop.py --> To test performance, but the module profile has a slow performance
 2. cProfile module execute: python3 -m cProfile sum_loop.py --> To test performance
 3. Line_profiler --> **pip install line_profiler** --> display specific lines and their time
-   1.  decorate the function with @profile
-   2.  Execute in the terminal 'kernprof -lvr "NameOfPythonFile.py"'
-   3.  Or Execute in terminal "python3 -m kernprof -lvr large_function.py"
-   4.  The result is displayed and a file is created by the name "NameOfPythonFile.py.lprof" 
-   5.  To vire details run: python3 -m line_profiler -rtmz "NameOfPythonFile.py.lprof"
+   1. https://kernprof.readthedocs.io/en/latest/
+   2.  decorate the function with @profile
+   3.  Execute in the terminal 'kernprof -lvr "NameOfPythonFile.py"'
+   4.  Or Execute in terminal "python3 -m kernprof -lvr large_function.py"
+   5.  The result is displayed and a file is created by the name "NameOfPythonFile.py.lprof" 
+   6.  To vire details run: python3 -m line_profiler -rtmz "NameOfPythonFile.py.lprof"
 4. Py-spy - Can profile multithreading applications.
 5. Scalene
 6. Yappi
