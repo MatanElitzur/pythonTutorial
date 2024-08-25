@@ -16,6 +16,7 @@ This is not good I would like to work on a virtual enviornment
 
 ## Tests
 1. Execute tests in terminal: pytest, will execute all function that start with test_
+2. python3 -m unittest tests.unit.unit_test_runner  --> run the unittest module as a script and the module path where the unit tests are defined.
 
 ## Profilers
 1. Profile module execute: python3 -m profile sum_loop.py --> To test performance, but the module profile has a slow performance
