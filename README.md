@@ -7,7 +7,7 @@ This is not good I would like to work on a virtual enviornment
     On the explorer in the left side you will see a .venv folder.
     At the visual studio at the upper pane, Choose Terminal --> New Terminal
     If you will type again which python3 the result will be the new path to our env enviornment /Users/I044184/matans_playground/pythonTutorial/.venv/bin/python3
-2. python3 -m venv '<virtual environment name>' --> create a virtual environment
+2. python3 -m venv <'virtual environment name'> --> create a virtual environment
        For example:
        1. python3 -m venv test-env
 
