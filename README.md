@@ -53,6 +53,9 @@ This is not good I would like to work on a virtual enviornment
 ## Packages
 1. pip install numpy --> for arrays of numbers, the performance is better then a regular array
 2. pip install -r requirements.txt  --> Install packages mentioned in file.
+
+## Packaging
+1. https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#distributing-packages
    
 ## Interpreters
 1. CPython --> is the official interpreter it is written in C
