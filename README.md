@@ -68,3 +68,5 @@ This is not good I would like to work on a virtual enviornment
    1. real    0m1.953s  --> The execution time, so we can check it we improved with multi threding or not
       user    0m0.055s
       sys     0m0.057s
+## Sample Python Project
+1. https://github.com/pypa/sampleproject
